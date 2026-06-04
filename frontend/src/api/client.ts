@@ -10,7 +10,7 @@ import axios from "axios";
 const TOKEN_KEY = "sv_token";
 
 export const apiClient = axios.create({
-  baseURL: "http://127.0.0.1:8000",
+  baseURL: "https://title-dectector.onrender.com",
   timeout: 60_000,
 });
 
